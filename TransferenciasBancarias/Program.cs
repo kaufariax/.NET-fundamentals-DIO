@@ -117,9 +117,9 @@ namespace TransferenciasBancarias
 			double entradaCredito = double.Parse(Console.ReadLine());
 
 			Conta novaConta = new Conta(tipoConta: (TipoConta)entradaTipoConta,
-										saldo: entradaSaldo,
-										credito: entradaCredito,
-										nome: entradaNome);
+                saldo: entradaSaldo,
+                credito: entradaCredito,
+                nome: entradaNome);
 
 			listContas.Add(novaConta);
 		}
